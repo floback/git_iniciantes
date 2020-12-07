@@ -1,0 +1,9 @@
+#!/bin/bash
+#instalação do git
+#atualização dos pacotes
+apt-get update && apt-get upgrade
+#debian derivados
+apt-get install git-all
+#hedhat derivados
+#dnf install git-all
+

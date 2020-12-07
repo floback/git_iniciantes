@@ -1,0 +1,15 @@
+#gerar a chave ssh
+#1- verifivcar
+# ls -al ~/.ssh/
+
+#2- gerar a chave ssh mediante o padrão este são 
+# 2.0- :~# ssh-keygen -t ed25519 -C "git@github.com:name_user/name_repositório"
+# 2.1- :~# ssh-keygen -t rsa -b 4096 -C "git@github.com:name_user/name_repositório"
+
+#3- adicionando a chave no git hub
+# 3.0- abra o github com sua conta logada
+# 3.1- vai em https://github.com/settings/keys
+# 3.2- clique new ssh key 
+# 3.3- copie e cole a chave ssh retirada do repositorio local comando ( cat ~/.ssh/id_rsa.pub ou cat ~/.ssh/id_ed25519.pub) 
+# 3.3.1-Observe o sistema de arquivo para copiar a chave certa. id_ed25519 ou id_rsa
+#

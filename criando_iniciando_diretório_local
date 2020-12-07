@@ -1,0 +1,13 @@
+inicializando um repositório
+-1-criando um repósitorio
+-1.0.1-criar diretório
+mkdir [nome-projeto]
+-1.0.2-iniciar projeto
+git init
+OBS:VERIFICAR REPOSITÓRIO
+ls -al 
+saida : .git
+-2-inicializar repositório
+git init <----- rode dentro da pasta q vai transmitir os dados
+
+

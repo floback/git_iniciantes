@@ -1,0 +1,13 @@
+configurando e instalando git
+-1-configurando usuário global
+git config --global user.name  "floback"
+git config user.name <---- nome do usuário
+-2-configurar email
+git config --global user.email 
+git config user.email <---- nome do email
+
+-3-definir editor
+git config --global core.editor vim
+
+-4-lista completa
+git config --list
