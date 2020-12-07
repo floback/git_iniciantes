@@ -1,0 +1,8 @@
+1- clonar um repositório
+comando git clone
+
+1.1-copie o endereço do repositório
+1.2-abra o terminal
+1.2.1-copie e cole este comando
+g clone git@github.com:name_user/name_repositório) github-course-clone
+
