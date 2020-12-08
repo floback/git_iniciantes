@@ -1,3 +1,22 @@
 O ciclo de vida dos status de seus arquivos
 
+-UNTRACKED
+git não conhece o arquivo ainda.
+
+-UNMODIED								^
+-git conhece o arquivo e sabe q ele foi modificado sem adicionar ele	|
+									|
+-MODIFIED								|
+foi comentato o os arquivos ou arquivo modoficado (commit)		|
+									|
+-STAGE									|
+foi adicionado o arquivo
+
+comandos que ligan este cenârio
+git init			<--- iniciou repo local
+git add	(nome do arquivo)	<--- adicionou o arquivo modificado
+git commit -m "descreve a modificação no arquivo"
+git push -u origin master
+git branch -M  main
+git push -u origin main
 
