@@ -1,0 +1,27 @@
+git revert
+
+ele ajuda a reverter uma modificação já commitad.
+Muito util para reverter um código que trouxe um problema.
+
+0-Qual grande utilidade do revert
+Ele ajuda a reverte as mudanças indesejada e deixar as mudanças que antesedia a modificação atual.
+ele serve para não perdeas mudanças que foi obrigada a retirar do commit que deu errado.
+sitaxe
+0-Reverte um commit indesejavel 
+git revert [commit do problema]
+1-Verificar
+git status
+git show [commit]
+
+exercicio
+
+1-crie um commit indesejavel e reverta ele.
+0-crie o arquivo, add, commit e revert. verifique
+vim indesejavel.json
+git add indesejavel.json
+git commit -m "é para revert"
+git status <<< SELECIONE A SAÍDA DO COMMIT do indesejavel.json
+git revert [commit]
+git status
+git show [commit]
+
