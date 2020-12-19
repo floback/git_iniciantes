@@ -1,0 +1,14 @@
+Criando atalhos para git
+
+Com esta util ferramenta pode-se criar atalhos de comandos do git para facilitar todo o procedimento.
+Sintaxe:
+
+git config --global alias.nome_ou_letra_alias comando_git
+
+Exemplo
+git status 
+gerando seu alias
+git config --global alias.s status
+
+Com esta comando o comando "git status" pode ser "git s" 
+o mesmo gera a saída de "git status"

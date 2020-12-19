@@ -1,0 +1,23 @@
+comando stash
+Este comando serve para guarda uma stancia de modificação em um arquivo existen.
+Ele e responsavel por guarda modificações que ainda não foi comitada. Ele vai colocar
+em estado de WIP " saved working directory and index state WIP on (branch):
+
+Sintaxe:
+0-Modifique um arquivo
+vim readme.md 
+0.1-Adicione modificaçãoes
+auhsua
+1-verifique o status
+saída deve haver a notificação de "mudança no estado do arquivo readme.md"
+2-digite o comando stash
+git stash
+obs: Neste momento ele vai lhe inforam que guardou o trabalho em segundo plano neste branch e que ainda aguarda a confirmação de finalizar a modificação.
+3-crie ou modifique de branch.
+git checkout nome_branch  ou git checkout -b "nome do novo branch"
+4-Verifique o status deste branch.
+git log && git status
+4.1-Verifiqcado que o mesmo não houve auteração, de log e status.
+5-Aplique as mofdificações ao arquivo que ainda não foi modificado e colocado em estado
+de WIP:
+git stash apply

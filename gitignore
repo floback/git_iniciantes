@@ -1,0 +1,24 @@
+gitignore
+Um arquivo gitignore especifica arquivos intencionalmente não rastreados que o Git deve ignorar. Os arquivos já rastreados pelo Git não são afetados.
+
+repositorio com padrões
+https://github.com/github/gitignore
+
+doc:
+https://git-scm.com/docs/gitignore
+
+O conceito do .gitignore , este arquivo pode conter os formatos e aquivos que o git tem que ignorar no rositório que o mesmo se encontra.
+devemos sempre trabalhar com o arquivo e uma base de contrução qua contem arquivos pré-compilados.
+
+.gitignoreEste arquivo faz o git ignorar os formatos, arquivos e diretórios ali mencionado. Muito útil de tremendo valor para programadores.
+
+exemplo de cenárioDiretório raiz do projeto e seus diretórios filhos/project/rrc/bin//project/rrc/opt//project/rrc/tmp/
+
+Vamos excluir alguns diretórios e tipos de arquivos no arquivos .gitignoreinsira as seguintes informações no arquivo oculto .gitignore
+
+/project/rrc/*/project/opt/.json*\.bin*\.dsm*/project/rrc/tmp/*Explicando os casos.
+1-O primeiro caso /project/rrc/* , informo ao .gitignore que ignore todos os arquivos em rrc e não o diretório.
+2-O segundo caso /project/opt/.json*\.bin*\.dsm*  informo que deve ignorar os formatos de arquivos no diretório filho de project no caso "opt" .
+3-O terceiro caso /project/rrc/tmp/* informo que o arquivo deve ignorar todos os dados em tmp cuso e diretório filho de rrc.
+
+
