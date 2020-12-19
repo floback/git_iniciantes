@@ -1,0 +1,13 @@
+Versionando com Tags
+Serve para trabalhar com bibliotecas ou sistemas mt grande. 
+Define as versões do que estamos trabalhando
+Ou seja, ela nos permite criar um delimitador maior de versão do produto final realizado.
+Exemplo:
+depois de 20 commit's terminei uma pagina Web. Nesta vou colocara tag para informa tudo que foi finalizada.
+
+Sintaxe:
+
+0-commitando a tag
+git tag -a 1.0.0 -m "Exemplo de informativo finalizado o trabalho"
+1-push tag
+git push origin (branch) --tags
