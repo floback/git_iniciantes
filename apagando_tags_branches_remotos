@@ -1,0 +1,7 @@
+0-apagando tags
+
+git push origin :tag_name
+
+1-apagando branch
+
+git push origin :branche_name
