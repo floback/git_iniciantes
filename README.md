@@ -12,6 +12,9 @@ git iniciantes
 8-gitignore
 9-git_comandos_importântes
 10-git_alias
+11-git_tags
+12-git_revert
+13-apagando tags e branches remotos
 
 
 
